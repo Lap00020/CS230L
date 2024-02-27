@@ -2,16 +2,34 @@
 
 import React from 'react';
 
-const Card = () => {
+ const Card = ()=>{
   return (
-    <div className="card" style={{ width: '18rem' }}>
-      <img src="https://placekitten.com/200/300" className="card-img-top" alt="Card" />
-      <div className="card-body">
-        <h5 className="card-title">Card Title</h5>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" className="btn btn-primary">Go somewhere</a>
+    <div class="row">
+  <div class="col-sm-4 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Card 1</h5>
+        <p class="card-text">Text for Card 1</p>
       </div>
     </div>
+  </div>
+  <div class="col-sm-4 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Card 2</h5>
+        <p class="card-text">Text for Card 2</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4 mb-3 mb-sm-0">
+    <div class="card">
+        <div class="card-body">
+            <h5 class ="card-title">Card 3</h5>
+            <p class="card-text">Text for Card 3</p>
+        </div>
+    </div>
+  </div>
+</div>
   );
 }
 
